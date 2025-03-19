@@ -1,5 +1,5 @@
-﻿using System.ComponentModel;
-using System;
+﻿using System;
+using System.ComponentModel;
 
 namespace ATMApp.UI
 {
@@ -28,8 +28,7 @@ namespace ATMApp.UI
                 }
                 catch(Exception ex)
                 {
-                    Utility.PrintMessage("Invalid Input. Try Again", false);
-                   
+                    Utility.PrintMessage("Invalid Input. Try Again", false);  
                 }
             }
             return default (T);
